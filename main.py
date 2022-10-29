@@ -9,6 +9,8 @@ SCREEN_HEIGHT = 600
 SCREEN_WIDTH = 1100
 SCREEN = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
 
+pygame.display.set_caption('Jump-Puppy-Jump')
+
 RUNNING = [pygame.image.load(os.path.join("Assets/Dog", "DogRun1.png")),
            pygame.image.load(os.path.join("Assets/Dog", "DogRun2.png"))]
 JUMPING = pygame.image.load(os.path.join("Assets/Dog", "DogJump.png"))
